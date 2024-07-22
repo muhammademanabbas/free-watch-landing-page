@@ -213,4 +213,17 @@
         flex-direction: column;
         gap: 1vh;
     }
+    .watches-slider1-item button{
+        width: 40vh;
+    }
+}
+
+@media (max-width:500px) {
+    .watches-slider1{
+        display:none;
+    }
+    .watch-carousel1{
+        display: block;
+    }
+    
 }

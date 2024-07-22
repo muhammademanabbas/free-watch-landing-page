@@ -1,0 +1,93 @@
+#last-option-section{
+    width: 100%;
+    min-height: 100vh ;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+#last-option-section h2{
+    text-align: center;
+    color: black;
+    margin-top: 2vh;
+}
+
+#last-option-section>h1{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+.watches-slider1{
+    width:100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5vh;
+    overflow: hidden;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+
+
+.watches-slider1-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.slider1-item-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watches-slider1-item img{
+    height:280px;    
+}
+
+.watches-slider1-item p{
+    margin-top: 10px;
+    font-weight: 600;
+    color: black;
+}
+
+.watches-slider1-item button{
+    margin-top: -10px;
+    padding: 12px;
+    width: 48vh;
+    /* width: 150%; */
+    border: none;
+    background-color: #214055;
+    color: #c8d41c;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.watch-carousel1{
+    display: none;
+}
+
+.carousel-control-next{
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.carousel-control-next i,.carousel-control-prev i{
+    color: white;
+    background-color: black;
+    border-radius: 200px;
+}
+
+.horizontal-line{
+    height: 3px;
+    background-color: black;
+    width: 86%;
+}
