@@ -233,15 +233,22 @@ nav img {
     overflow: hidden;
 }
 
-.large-view img {
-    position: absolute;
-    height: 400px;
-    
+.sub-large-view{
+background-color: white; 
+width: 100% ;
+height: 100%;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-.active-top-img{
-    display: block;
-    opacity: 1;
+.large-view .sub-large-view img {
+    height: 400px;
+}
+
+.active-top-free-img{
+    z-index: 9;
 }
 
 
