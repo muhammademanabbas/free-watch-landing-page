@@ -1,0 +1,159 @@
+#check-out-section {
+    width: 100%;
+    /* height: 130vh; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2vw ;
+    position: relative;
+}
+
+#check-out-section .check-l-box {
+    width: 50vw; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3vh; */
+    /* justify-content: center; */
+    align-items: center;
+    overflow: visible;
+}
+
+#check-out-section .check-r-box {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check-out-img-cont {
+    height: 300px;
+    width: 400px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.check-outimg-abslte{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color:white;
+    overflow: hidden;
+}
+
+.check-out-img-cont img {
+    height: 100%;
+    width: 90%;
+}
+
+.rotate-cut-img img{
+    height: 150%;
+    rotate: -10deg;
+    transform: translateY(-30%);
+}
+
+.active-cut-img{
+    z-index: 9;
+}
+
+
+
+.check-l-box p,
+.check-r-box p,
+.check-l-box h5,
+.check-r-box h5 {
+    display: block;
+    text-wrap: nowrap;
+    text-align: center;
+    line-height: 7px;
+}
+
+.dots-circle {
+    display: flex;
+    gap: 1.4vh;
+    margin-bottom: 20px;
+}
+
+.dots-circle div {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #E2E2E2;
+}
+
+.retail-price {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.rating-div {
+    display: flex;
+    gap: 30px;
+}
+
+.rating-div p {
+    line-height: 28px;
+}
+
+.color-wtch {
+    color: black;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.review-stars i {
+    width: 30px;
+}
+
+.color-variations {
+    width: 58vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.color-variations div {
+    height: 66px;
+    width: 66px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.04s linear;
+}
+
+.color-variations div img {
+    height: 96%;
+    width: 96%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.border-active{
+    border: 2px solid black;
+}
+
+.check-out-btn {
+    background-color: #214055;
+    color: #D3DA1D;
+    padding: 16px;
+    width: 380px;
+    border: 0;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.check-out-btn i {
+    color: #D3DA1D;
+}

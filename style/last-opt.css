@@ -1,11 +1,12 @@
 #last-option-section{
     width: 100%;
-    min-height: 100vh ;
-    padding: 1vw;
+    /* min-height: 100vh ; */
+    padding: 2.5vw ;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    overflow-x: auto;
 }
 
 #last-option-section h2{
@@ -18,11 +19,12 @@
     text-align: center;
     color: black;
     font-weight: 600;
+    font-size: 3vw;
 }
 
 .watches-slider1{
     width:100%;
-    min-height: 70vh;
+    /* min-height: 70vh; */
     display: flex;
     align-items: center;
     justify-content: start;
@@ -41,6 +43,7 @@
     margin-top: 20px;
 }
 
+
 .slider1-item-bottom{
     display: flex;
     flex-direction: column;
@@ -48,8 +51,10 @@
 }
 
 .watches-slider1-item img{
-    height:280px;    
+    height:290px;    
+    width: 220px;
 }
+
 
 .watches-slider1-item p{
     margin-top: 10px;

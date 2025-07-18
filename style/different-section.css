@@ -1,0 +1,30 @@
+#different-item-section{
+    width: 100%;
+    /* min-height: 100vh ; */
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+#different-item-section h2{
+    text-align: center;
+    color: black;
+    margin-top: 2vh;
+}
+
+#different-item-section>h1{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+#different-item-section h2{
+    font-weight: 600;
+}
+
+#h2-underline{
+    text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+footer{
+    width:100vw;
+    /* min-height: 130px; */
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #214055;
+    color: white;
+    padding: 2vw;
+    overflow: hidden;
+}
+
+#footer-left p{
+    text-align: center;
+}
+#footer-left p:last-child{
+    margin-top: -20px;
+}
+
+#footer-center{
+    display: flex;
+    flex-direction: column;
+}
