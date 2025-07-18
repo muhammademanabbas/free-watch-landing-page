@@ -439,7 +439,6 @@ align-items: center;
     align-items: center;
     gap: 2vh;
     padding: 2vw 2vw; 
-    background-color: salmon;
 }
 
 #stats-section>h1,#stats-section>h1>span{
